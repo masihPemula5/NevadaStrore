@@ -1,0 +1,146 @@
+body{
+  background: linear-gradient(to bottom, #00FFDE, #353535);
+  background-size: 400px;
+  color: white;
+}
+
+.sampul{
+  position: relative;
+  bottom: -75px;
+  width: 360px;
+}
+.kotak{
+  margin: 100px 55px;
+  position: relative;
+  bottom: -220px;
+}
+
+.forum{
+  background: transparent;
+  backdrop-filter: blur(30px);
+  height: 200px;
+  margin: 20px;
+  margin-bottom: 80px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -90px;
+  border-radius: 10px;
+}
+
+.f-luar{
+  background: url('ling.jpg') no-repeat;
+  background-size: 400px;
+  height: 350px;
+}
+
+.forum h3{
+  position: relative;
+  top: -30px;
+  color: #FA0909;
+  outline: dashed 2px #000000;
+  
+}
+
+.forum input{
+  margin: 10px;
+  border-radius: 4px;
+  border: 1px solid black;
+  outline: none;
+}
+
+.pay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+  padding: 20px;
+  position: relative;
+  top: 190px;
+  
+}
+
+.pay select{
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  background: #342C52;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+footer{
+  background: #383838;
+  position: relative;
+  top: 190px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #A7A7A7;
+  
+}
+.f-div{
+  position: absolute;
+  left: 29%;
+}
+
+footer a{
+  margin: 10px;
+  color: #FFFFFF;
+  font-size: 30px;
+  position: relative;
+  left: -5%;
+}
+
+footer p{
+ position: relative;
+ left: -20%;
+  color: #FFFFFF;
+}
+
+.f-p{
+  position: relative;
+  bottom: -40%;
+  right: -15%;
+}
+
+.imeg{
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  border: 5px dotted #04D4FF;
+  box-shadow: 0 2px 20px #04FFF7;
+}
+
+.i-d{
+  position: relative;
+  bottom: -10%;
+}
+
+.i-luar img{
+  width: 400px;
+  height: 300px;
+}
+.carousel-inner{
+  position: relative;
+  bottom: -35px;
+}
+
+.mySlides {
+    display: none;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 5s;
+    transition: 3s ease;
+  }
+
+  @keyframes fade {
+    from {opacity: .1}
+    to {opacity: 1}
+  }
