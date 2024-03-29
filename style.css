@@ -144,3 +144,11 @@ footer p{
     from {opacity: .1}
     to {opacity: 1}
   }
+
+@media screen and (max-width: 720px){
+  .kotak{
+  margin: 100px 65px;
+  position: relative;
+  bottom: -220px;
+  }
+}
