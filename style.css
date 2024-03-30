@@ -13,7 +13,7 @@ body{
   margin: 100px 55px;
   position: relative;
   bottom: -220px;
-}
+} 
 
 .forum{
   background: transparent;
@@ -145,10 +145,42 @@ footer p{
     to {opacity: 1}
   }
 
-@media screen and (max-width: 720px){
-  .kotak{
-  margin: 100px 65px;
-  position: relative;
-  bottom: -220px;
-  }
+  @media (min-width: 400px){
+    .f-luar{
+  background: url('ling.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
 }
+  .f-div{
+  position: absolute;
+  left: 35%;
+}
+
+footer a{
+  margin: 10px;
+  color: #FFFFFF;
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+.card{
+  width: 25rem;
+  
+}
+.forum{
+  background: transparent;
+  backdrop-filter: blur(30px);
+  height: 200px;
+  margin: 40px;
+  margin-bottom: 80px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -90px;
+  border-radius: 10px;
+}
+  }
