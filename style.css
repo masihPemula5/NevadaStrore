@@ -10,7 +10,10 @@ body{
   width: 360px;
 }
 .kotak{
-  margin: 100px 55px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   bottom: -220px;
 } 
