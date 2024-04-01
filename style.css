@@ -18,6 +18,10 @@ body{
   bottom: -220px;
 } 
 
+.card{
+  margin: 20px;
+}
+
 .forum{
   background: transparent;
   backdrop-filter: blur(30px);
