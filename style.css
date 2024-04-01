@@ -10,8 +10,8 @@ body{
   width: 360px;
 }
 .kotak{
-  flex-direction: column;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   position: relative;
